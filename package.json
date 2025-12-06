@@ -1,6 +1,6 @@
 {
   "name": "@joey-d/medusa-plugin-wishlist",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A starter for Medusa plugins.",
   "author": "Medusa (https://medusajs.com)",
   "license": "MIT",
@@ -34,39 +34,39 @@
     "prepublishOnly": "medusa plugin:build"
   },
   "devDependencies": {
-    "@medusajs/admin-sdk": "2.11.2",
-    "@medusajs/cli": "2.11.2",
-    "@medusajs/framework": "2.11.2",
-    "@medusajs/icons": "2.11.2",
-    "@medusajs/medusa": "2.11.2",
-    "@medusajs/test-utils": "2.11.2",
-    "@medusajs/ui": "4.0.25",
-    "@swc/core": "1.5.7",
-    "@types/node": "^20.0.0",
-    "@types/react": "^18.3.2",
-    "@types/react-dom": "^18.2.25",
+    "@medusajs/admin-sdk": "2.12.1",
+    "@medusajs/cli": "2.12.1",
+    "@medusajs/framework": "2.12.1",
+    "@medusajs/icons": "2.12.1",
+    "@medusajs/medusa": "2.12.1",
+    "@medusajs/test-utils": "2.12.1",
+    "@medusajs/ui": "4.0.29",
+    "@swc/core": "1.15.3",
+    "@types/node": "^24.10.1",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.6.2",
-    "vite": "^5.2.11",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.6",
     "yalc": "^1.0.0-pre.53"
   },
   "peerDependencies": {
-    "@medusajs/admin-sdk": "2.11.2",
-    "@medusajs/cli": "2.11.2",
-    "@medusajs/framework": "2.11.2",
-    "@medusajs/icons": "2.11.2",
-    "@medusajs/medusa": "2.11.2",
-    "@medusajs/test-utils": "2.11.2",
-    "@medusajs/ui": "4.0.25"
+    "@medusajs/admin-sdk": "2.12.1",
+    "@medusajs/cli": "2.12.1",
+    "@medusajs/framework": "2.12.1",
+    "@medusajs/icons": "2.12.1",
+    "@medusajs/medusa": "2.12.1",
+    "@medusajs/test-utils": "2.12.1",
+    "@medusajs/ui": "4.0.29"
   },
   "engines": {
     "node": ">=20"
   },
   "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447",
   "dependencies": {
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^9.0.3"
   }
 }
