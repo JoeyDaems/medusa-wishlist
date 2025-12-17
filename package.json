@@ -1,6 +1,6 @@
 {
   "name": "@joey-d/medusa-plugin-wishlist",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A starter for Medusa plugins.",
   "author": "Medusa (https://medusajs.com)",
   "license": "MIT",
@@ -54,13 +54,13 @@
     "yalc": "^1.0.0-pre.53"
   },
   "peerDependencies": {
-    "@medusajs/admin-sdk": "2.12.1",
-    "@medusajs/cli": "2.12.1",
-    "@medusajs/framework": "2.12.1",
-    "@medusajs/icons": "2.12.1",
-    "@medusajs/medusa": "2.12.1",
-    "@medusajs/test-utils": "2.12.1",
-    "@medusajs/ui": "4.0.29"
+    "@medusajs/admin-sdk": "^2.12.1",
+    "@medusajs/cli": "^2.12.1",
+    "@medusajs/framework": "^2.12.1",
+    "@medusajs/icons": "^2.12.1",
+    "@medusajs/medusa": "^2.12.1",
+    "@medusajs/test-utils": "^2.12.1",
+    "@medusajs/ui": "^4.0.29"
   },
   "engines": {
     "node": ">=20"
